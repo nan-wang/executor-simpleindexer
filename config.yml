@@ -1,4 +1,8 @@
 jtype: SimpleIndexer
+with:
+  index_file_name: indexer
 metas:
+  name: indexer
+  workspace: workspace/
   py_modules:
     - executor.py
